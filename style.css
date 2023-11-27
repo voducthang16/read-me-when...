@@ -1,5 +1,6 @@
 .container {
     margin: 0 auto;
+    margin-top: 160px;
     width: 600px;
     height: 160px;
     border-radius: 16px;
