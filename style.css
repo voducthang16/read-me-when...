@@ -1,0 +1,48 @@
+.container {
+    margin: 0 auto;
+    width: 600px;
+    height: 160px;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.controls {
+    padding: 0 16px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.repeat,
+.play-pause {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.volume-controls,
+.control {
+    display: flex;
+    align-items: center;
+}
+
+.audio {
+    visibility: hidden;
+}
+
+.volume-control {
+    height: 4px;
+    border-radius: 2px;
+    background: linear-gradient(to right, #ffcce6, #e298ff);
+}
